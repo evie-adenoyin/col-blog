@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Russo One', sans-serif; 
+}
+/* header and navigation */
+.logo{
+    font-size:xx-large;
+    padding: 0px;
+    font-weight: bolder;
+}
+
+.psychology{
+    font-size: xx-large;
+}
+
+h1{
+    border-bottom: 3px solid #05386b;
+}
+
+.blog h1{
+    border-bottom: 3px solid #5CDB95;
+}
+
+.logo, li, a, button{ 
+    text-decoration: none;
+    padding: 10px;
+    color: #05386b;
+}
+
+header{
+    height: 70px;
+    background-color: #5CDB95;
+    position: fixed;
+    width: 100%;
+    z-index: 18;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+.nav-link{
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+ul li a .material-icons{
+    color: 05386b;
+    position: relative;
+    top: 4px;
+    padding-right: 3px;
+}
+
+/* Motivation */
+
+#motivation{
+    background:url("../img/motivation.jpg") center top no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0 40px 0;
+    position: relative;
+    height: 70vh;
+    padding: 6rem;
+}
+
+.motivation-content{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+
+.motivation-content h1{
+    color: #05386b;
+}
+
+.motivation-text{
+    margin-top: 10rem;
+}
+
+#motivation::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 9;
+  }
+
+
+/* section one and side bar */
+.blog{
+    padding: 7rem;
+    
+}
+.first-section{
+    padding: 30px;
+    display: flex;
+    padding: 40px;
+}
+
+.blog-post{
+    padding: 10px;
+}
+
+.blog-content{
+    display: flex;
+    padding: 40px;
+    background-color: #EDF5E1;
+    width: 40rem;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.blog-section h1{
+    color: #05386b;
+}
+
+.blog-content img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.note{
+    padding-left: 10px;
+}
+
+
+.sidebar{
+    margin-left: 10rem;
+}
+
+.sidebar-section{
+    border-left: 1px solid #05386b;
+    padding: 10px;
+}
+
+.sidebar-note{
+    font-size: smaller;
+    padding: 10px;
+    border-bottom: 1px solid #05386b;
+    padding-bottom: 10px;
+    width: 30rem;
+}
+
+.sidebar-info h1{
+    color: #05386b;
+}
+
+.yesterday-section-sidebar{
+    margin-top: 4rem;
+}
+
+.yesterday-section-sidebar h1{
+    color: #05386b;
+}
+
+.btn-review{
+    padding: 10px;
+    float: right;
+    background: #05386b;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* Post pagination */
+.pagination {
+display: inline-block;
+}
+
+.pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+.pagination a.active {
+background-color: #5CDB95;
+color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+/*middle navigation bar*/
+
+.middle-section{
+    background: #EDF5E1;
+    padding: 0rem 6rem 0rem 6rem;
+}
+.middle-nav ul li{
+    display: inline-block;
+    padding: 30px;
+    font-size: x-large;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  
+}
+
+
+
+.middle-nav ul{
+    text-align: center;
+    
+}
+
+.middle-section-card{
+   padding: 1rem 4rem 1rem 4rem ;
+}
+
+.card{
+    display: flex;
+    background: white;
+    height:auto ;
+    margin-bottom: 3rem;
+    border-bottom: 4px solid #5CDB95;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-content h4{
+    font-size: 3rem;
+}
+
+.card img{
+    width: 25rem;
+    height: auto;
+}
+
+.btn-card{
+   margin: 1rem 0rem 1rem 1rem;
+   
+}
+
+/* Middle Post pagination */
+
+.middle-pagination-nav{
+    text-align: center;
+}
+
+.middle-pagination {
+    display: inline-block;
+   
+}
+
+.middle-pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+    
+}
+
+.middle-pagination a.active {
+    background-color: #5CDB95;
+    color: white;
+    border:1px solid #5CDB95;
+}
+
+.middle-pagination a:hover:not(.active) {
+    background-color: #ddd;
+
+}
+
+.blogger{
+    height: 70vh;
+    text-align: center;
+    color: #05386b;
+    margin-top: 30px;
+}
+
+
+/* advertisement */
+
+.Advertisement{
+    background:url("../img/Screenshot.png") center no-repeat ;
+    height: 80vh;
+    padding: 150px 0 40px 0;
+    text-align: center;
+}
+
+
+.Advertisement-note p{
+    font-size: large;
+}
+
+.btn-advert{
+    margin-top: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* small chops */
+.advert{
+    background-color: #5CDB95;
+    height: 90vh;
+}
+
+.text-header h1{
+    border: none;
+}
+
+.text-header{
+    position: relative;
+    top: 10rem;
+    left: 20rem;
+}
+
+.text-header .everything{
+    color: #05386b;
+    letter-spacing: 1rem;
+}
+
+.text-header .cloud{
+    color: white;
+    letter-spacing: 1rem;
+}
+
+.text-header i{
+    font-size: 40px;
+    
+}
+
+.img-header{
+    position: relative;
+    top: 3rem;
+    left: 48rem;
+}
+
+
+.material-icons.md-70 { 
+    font-size: 30rem;
+
+ }
+
+.img-header .img{
+    color: #05386b;
+    
+}
+
+.leaderboard{
+    position: absolute;
+    top: -3rem;
+    left: -12rem;
+    color: #05386b;
+}
+
+.school{
+    position: relative;
+    left: 56rem;
+    top: 4rem;
+    color: white;
+    
+}
+
+.live_tv{
+    position: relative;
+    top: -5rem;
+    left: 40rem;
+    color: white;
+}
+
+.place{
+    position: relative;
+    top: -12rem;
+    color: #05386b;
+    
+}
+
+.person{
+    position: relative;
+    top: 4rem;
+    right: 20rem;
+    color: #05386b;
+}
+
+.pending{
+    position: relative;
+    top: 12rem;
+    right: 15rem;
+    color: #05386b;
+}
+
+.today{
+    position: relative;
+    bottom: -4rem;
+    left: -5rem;
+    color: #05386b;
+}
+
+.work{
+    position: relative;
+    top: 20rem;
+    left: 40rem;
+    color: white;
+}
+
+.sports_esports{
+    position: relative;
+    top: 9rem;
+    left: 42rem;
+    color: white;
+}
+
+
+/* contact section */
+
+
+.contact-section{
+    background: #05386b;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.contact-form, .contact-item{
+    padding: 10px;
+    width: 45rem;
+}
+
+input{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 3rem;
+    font-size: large;
+    padding: 4px;
+}
+
+textarea{
+    display: block;
+    margin-top: 2rem;
+    width: 40rem;
+    height: 10rem;
+    font-size: large;
+    font-family: 'Russo One', sans-serif;
+    padding: 4px; 
+    
+}
+
+.contact{
+    letter-spacing: 0.2rem;
+}
+
+.contact p i{
+    padding: 1rem 1rem 0rem 0rem;
+
+}
+
+.btn-contact{
+    background: #5CDB95;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: white;
+    border:2px solid #5CDB95;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+

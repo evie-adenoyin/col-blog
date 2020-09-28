@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Russo One', sans-serif; 
+}
+/* header and navigation */
+.logo{
+    font-size:xx-large;
+    padding: 0px;
+    font-weight: bolder;
+}
+
+.psychology{
+    font-size: xx-large;
+}
+
+h1{
+    border-bottom: 3px solid #05386b;
+}
+
+.blog h1{
+    border-bottom: 3px solid #5CDB95;
+}
+
+.logo, li, a, button{ 
+    text-decoration: none;
+    padding: 10px;
+    color: #05386b;
+}
+
+header{
+    height: 70px;
+    background-color: #5CDB95;
+    width: 100%;
+    z-index: 18;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+.nav-link{
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+ul li a .material-icons{
+    color: 05386b;
+    position: relative;
+    top: 4px;
+    padding-right: 3px;
+}
+
+/* form section */
+
+.login_section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 30px;
+}
+
+fieldset {
+    padding: 30px;
+    line-height: 3rem;
+    border: 3px solid #05386b;
+    background: #f1ecec;
+    height: 40vh;
+}
+
+input{
+    height: 2rem;
+    width: 30rem;
+    padding: 4px;
+    font-size: 15;
+}
+
+legend{
+    padding: 10px;
+}
+
+small{
+    color: #05386b;
+}
+
+span{
+    color: black;
+}
